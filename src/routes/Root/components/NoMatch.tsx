@@ -17,7 +17,7 @@ export const NoMatch = () => {
         <h1>404</h1>
         <h4>Nothing here!</h4>
       </div>
-      <Link to="/" className="button">
+      <Link to="/" className="link-button">
         Return Home
       </Link>
     </div>

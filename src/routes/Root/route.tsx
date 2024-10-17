@@ -1,7 +1,7 @@
-import { NoMatch } from "./components/NoMatch";
-import { Root } from "./Root";
-import { ErrorPage } from "./components/ErrorPage";
-import { RouteConfigFunction } from "../types";
+import { NoMatch } from "./components/NoMatch"
+import { Root } from "./Root"
+import { ErrorPage } from "./components/ErrorPage"
+import { RouteConfigFunction } from "../types"
 
 export const RootRoute: RouteConfigFunction = (childRoutes) => {
   return {
@@ -15,5 +15,5 @@ export const RootRoute: RouteConfigFunction = (childRoutes) => {
         element: <NoMatch />,
       },
     ],
-  };
-};
+  }
+}

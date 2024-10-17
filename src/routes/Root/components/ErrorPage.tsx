@@ -8,7 +8,7 @@ export const ErrorPage = () => {
     <div className="error-page">
       <div className="error-page__background">
         <h1>Something went wrong</h1>
-        <Link to="/" className="button ext">
+        <Link to="/" className="link-button">
           Return Home
         </Link>
         <pre>{error instanceof Error ? error.message : null}</pre>

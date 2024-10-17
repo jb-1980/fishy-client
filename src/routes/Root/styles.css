@@ -7,6 +7,19 @@
   padding: 2rem;
 }
 
+.link-button {
+  background-color: var(--color-primary);
+  color: var(--text-light);
+  border: none;
+  border-radius: 5px;
+  padding: 0.75rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
 .error-page {
   display: flex;
   width: 100%;
@@ -24,14 +37,14 @@
 .error-page__background > h1 {
   font-size: 3rem;
   font-weight: 400;
-  color: #c40404;
+  color: var(--color-secondary);
 }
 
 .error-page__background > pre {
-  text-align: left;
+  text-align: center;
   font-size: 1.5rem;
   font-weight: 300;
-  color: #c40404;
+  color: var(--color-secondary);
 }
 
 .navbar {
