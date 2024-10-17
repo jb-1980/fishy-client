@@ -14,7 +14,9 @@ if (!rootElement) {
   throw new Error("No root element found")
 }
 
-const router = createBrowserRouter([RootRoute([IndexRoute(), RegionRoute()])])
+const router = createBrowserRouter([RootRoute([IndexRoute(), RegionRoute()])], {
+  basename: "/fishy-client",
+})
 
 ReactDOM.createRoot(rootElement).render(
   <React.StrictMode>
