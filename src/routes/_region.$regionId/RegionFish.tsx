@@ -2,7 +2,7 @@ import { Fish } from "../../models"
 
 export const RegionFishCard = (props: { fish: Fish }) => {
   const fish = props.fish
-  console.log(fish)
+
   return (
     <div className="fish-card">
       <img src={fish.imgSrc} alt={fish.name} />
