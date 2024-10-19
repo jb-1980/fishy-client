@@ -4,7 +4,11 @@ This is a simple app to demonstrate some basic coding concepts around creating
 an app that can interact with an API and display the data in a user-friendly
 way.
 
-## Pattens
+### Update
+
+See a clone using Aurelia framework [here](https://github.com/jb-1980/aurelia-fishy-client/tree/main/client)
+
+## Patterns
 
 The app is principally organized around routes. I find this most intutive for
 front-end applications as it allows for a clear separation of concerns and
